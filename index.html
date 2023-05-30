@@ -1,0 +1,2431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPEI - MONTHLY BRIEFING SLIDES</title>
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/upload.php">
+  </head>
+  <body>
+    <div class="container">
+      <div class="monthly-briefing-table" style="text-align: center">
+        <h2>GPEI - MONTHLY BRIEFING SLIDES</h2>
+
+        <table id="table-id">
+          <tr class="months">
+            <th>Section</th>
+            <th id="January">January</th>
+            <th id="Feburary">Feburary</th>
+            <th id="March">March</th>
+            <th id="April">April</th>
+            <th id="May">May</th>
+            <th id="June">June</th>
+            <th id="July">July</th>
+            <th id="August">August</th>
+            <th id="September">September</th>
+            <th id="October">October</th>
+            <th id="November">November</th>
+            <th id="December">December</th>
+
+          </tr>
+          <tr>
+            <td>A</td>
+            <td id="May-A"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>B</td>
+            <td id="May-B"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>C</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>D</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>E</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>F</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>G</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>H</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>I</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>J</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>K</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <!-- <p id="MonthText"></p> -->
+      <div class="upload-section" style="display: flex; flex-direction: column; align-items: center;">
+        <h2 class="upload-heading">
+          Upload a file
+          <span style="color: red">(Due Date - 28th of every Month)</span>
+        </h2>
+        <div class="file-upload" id="file-upload">
+          <form action="#">
+            <!-- <input type="submit" value="Upload" id="myBtn" style="width: 30vw" /> -->
+            <div class="upload-btn-div" style="display: flex; ">
+              <button type="submit"  id="myBtn" style="width: 30vw; height: 7vh;">New Upload</button>
+              
+              <p class="p-success" style="margin-left: 1rem; margin-top: 0.3rem; display: none; color: rgb(3, 175, 3);">Successfully Loaded File.</p>
+            </div>
+            <!--  dialogue box for upload file-upload-->
+            <div id="myModal" class="modal">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="dialogBox">
+                  <form action="upload.php" method="post" enctype="multipart/form-data" id="form_upload">
+                      <label for="" class="dialogue-label-weight">Select Section: </label>
+                      <select id="dropdownMenu" class="inputFields" >
+                        <option value="Select..." >Section Selection...</option>
+                        <option value="A" id="A">A</option>
+                        <option value="B" id="B">B</option>
+                        <option value="C" id="C">C</option>
+                        <option value="D" id="D">D</option>
+                        <option value="E" id="E">E</option>
+                        <option value="F" id="F">F</option>
+                        <option value="G" id="G">G</option>
+                        <option value="H" id="H">H</option>
+                        <option value="I" id="H">I</option>
+                        <option value="J" id="H">J</option>
+                        <option value="K" id="H">K</option>
+                        <!-- Add more options as needed -->
+                      </select>
+                      <!-- <label for="" class="dialogue-label-weight">Select Month: </label>
+                      <select id="dropdownMenu" class="inputFields" >
+                        <option value="Select..." >Month Selection...</option>
+                        <option value="A" id="A">January</option>
+                        <option value="B" id="B">Feburary</option>
+                        <option value="C" id="C">March</option>
+                        <option value="D" id="D">April</option>
+                        <option value="E" id="E">May</option>
+                        <option value="F" id="F">June</option>
+                        <option value="G" id="G">July</option>
+                        <option value="H" id="H">August</option>
+                        <option value="I" id="H">September</option>
+                        <option value="J" id="H">October</option>
+                        <option value="K" id="H">November</option>
+                        <option value="L" id="H">December</option>
+                          
+                      </select> -->
+
+                    <label for="" value="" class="dialogue-label-weight">Select Month & Year : </label>
+                     <input type="month" id="dateInput" class="inputFields" />
+                    <!-- <select id="month" id="dateInput" class="inputFields">
+                      <option value="">Select Month</option>
+                      <option value="1">January</option>
+                      <option value="2">February</option>
+                      <option value="3">March</option>
+                      <option value="4">April</option>
+                      <option value="5">May</option>
+                      <option value="6">June</option>
+                      <option value="8">August</option>
+                      <option value="9">September</option>
+                      <option value="10">October</option>
+                      <option value="11">November</option>
+                      <option value="12">December</option>
+                    </select> -->
+                    <label for="" class="dialogue-label-weight">Choose File : </label>
+                    <input type="file" id="fileUpload" class="inputFields" />
+                    <label for="" class="dialogue-label-weight">Comments : </label>
+                    <input type="text" value="Comments" id="textInput" placeholder="Comment..." class="inputFields" />
+                  <div class="btns">
+                    <button class="inputFields btn-submit" type="submit" onclick="submitData(); getMonthName(); uploadFile()"><h2>Submit</h2></button>
+                    <!-- <button class="inputFields btn-submit" ><h2>Reset</h2></button> -->
+                  </div>
+                    </form>
+                </div>
+                </div>
+              </div>
+            </div>
+      </div>
+        </form>
+      </div>
+      <div class="file-upload-form"></div>
+    </div>
+
+       
+    <script>
+      function uploadFile() {
+        var fileInput = document.getElementById('fileUpload');
+        var file = fileInput.files[0];
+        
+        // Check if a file was selected
+        if (file) {
+          var downloadLink = document.createElement('a');
+          downloadLink.href = URL.createObjectURL(file);
+          downloadLink.download = file.name;
+          downloadLink.click();
+        } else {
+          alert('Please select a file to upload.');
+        }
+      }
+    </script>
+    
+    
+
+    <!-- <script>
+      function uploadFile() {
+        var fileInput = document.getElementById("fileUpload");
+        var file = fileInput.files[0];
+        var formData = new FormData();
+        formData.append("file", file);
+  
+        // You need to send the file to the server using technologies like AJAX or form submission.
+        // This example demonstrates an AJAX approach using the Fetch API.
+  
+        fetch("/upload", {
+          method: "POST",
+          body: formData
+        })
+        .then(response => {
+          if (response.ok) {
+            alert("File uploaded successfully!");
+          } else {
+            alert("File upload failed.");
+          }
+        })
+        .catch(error => {
+          console.error("Error:", error);
+        });
+      }
+    </script> -->
+
+    <!-- <script>
+      window.onload = function (){
+      const table = document.getElementById('table-id');
+      for (let i = 0; i < 2; i++) {
+        document.getElementsById('May-A').textContent = "N/A";
+        }
+      };
+      function saveTableData() {
+        
+       
+        const cells = table.getElementsByTagName('td');
+
+        const savedData = [];
+
+        for (let i = 0; i < cells.length; i++) {
+          const cellData = cells[i].textContent;
+          savedData.push(cellData);
+        }
+
+        // Store the data in localStorage
+        localStorage.setItem('tableData', JSON.stringify(savedData));
+
+        console.log('Table data saved.');
+      }
+    </script> -->
+
+    <!-- GetMonthFunction & SubmitDataFunction -->
+    <script>
+      let j = 0;
+      let x = 0;
+
+
+
+      function getMonthName() {
+        // Get the month value
+        var monthVal = document.getElementById("dateInput").value;
+
+        // Create a date object using the month value
+        var dateObj = new Date(monthVal);
+        let monthString = monthVal.text;
+        let monthS;
+        var monthNumber = parseInt(monthVal.substring(5, 7), 10);
+        x = monthNumber;
+        // Create an array of month names
+        var monthNames = [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December",
+        ];
+        let i;
+        let monthNameF;
+        if(x == 1)
+        {
+          console.log("January : Month number : ", x);
+          monthNameF = "January";
+        }
+        if(x == 2)
+        {
+          console.log("Feburary : Month number : ", x);
+          monthNameF = "Feburary";
+        }
+        if(x == 3)
+        {
+          console.log("March : Month number : ", x);
+          monthNameF = "March";
+        }
+        if(x == 4)
+        {
+          console.log("April : Month number : ", x);
+          monthNameF = "April";
+        }
+        if(x == 5)
+        {
+          console.log("May : Month number : ", x);
+          monthNameF = "May";
+        }
+        if(x == 6)
+        {
+          console.log("June : Month number : ", x);
+          monthNameF = "June";
+        }
+        if(x == 7)
+        {
+          console.log("July : Month number : ", x);
+          monthNameF = "July";
+        }
+        if(x == 8)
+        {
+          console.log("August : Month number : ", x);
+          monthNameF = "August";
+        }
+        if(x == 9)
+        {
+          console.log("September : Month number : ", x);
+          monthNameF = "September";
+        }
+        if(x == 10)
+        {
+          console.log("October : Month number : ", x);
+          monthNameF = "October";
+        }
+        if(x == 11)
+        {
+          console.log("November : Month number : ", x);
+          monthNameF = "November";
+        }
+        if(x == 12)
+        {
+          console.log("December : Month number : ", x);
+          monthNameF = "December";
+        }
+        console.log(monthString);
+
+
+        submitData(x);
+        // document.getElementById("MonthText").textContent = monthString;
+        // monthS = document.getElementById("MonthText").textContent;
+        // console.log("Month : ", monthNameF);
+        // document.getElementById("MonthText").textContent = "Month Selected : " + monthNameF + "Section : ";
+
+      }
+
+      let data_1 = document.getElementById("May-A");
+       let file = document.getElementById("fileUpload");
+
+      function submitData(x) {
+          // Get the elements
+          var dropdown = document.getElementById('dropdownMenu');
+          var dateInput = document.getElementById('dateInput');
+          var textInput = document.getElementById('textInput');
+
+          // Check if a dropdown item is selected
+          if (dropdown.value) {
+              // Get the values from the date and text inputs
+              var date = dateInput.value;
+              var text = textInput;
+              var fileV = file.files[0];
+            var filename = file.files[0].name;
+              // Do something with these values...
+              console.log('Dropdown Value:', dropdown.Value);
+              console.log('Date:', date);
+
+              console.log('Text:', text);
+
+
+              
+              // Close the dialog box by hiding it
+              document.getElementById('myModal').style.display = 'none';
+              /*data_1 = text + date + "\n" + filename;*/
+              /*document.getElementById("May-A").value = data_1.innerHTML;*/
+              console.log('Data:', data_1.innerHTML);
+              
+          } else {
+              alert('Please select an item from the dropdown menu.');
+          }
+          var dropdown = document.getElementById("dropdownMenu");
+          var selectedOption = dropdown.options[dropdown.selectedIndex];
+          var selectedText = selectedOption.text;
+          console.log(selectedText);
+
+
+            // Get the value of the input field
+          var inputValue = document.getElementById('textInput').value;
+          var tableCell;
+
+          var currentDate = new Date();
+          var dateString = currentDate.toDateString();
+          var numberToCompare = 28; // Example number to compare with the day of the month
+
+          var dayOfMonth = currentDate.getDate();
+
+          if(selectedText == "A"){
+            if(x == 1)
+            {
+
+              tableCell = document.getElementById('table-id').rows[1].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[1].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+
+          }
+
+          /* Section B*/
+          if(selectedText == "B"){
+            if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[2].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            }
+          if(selectedText == "C"){
+            if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[3].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+
+          }
+          if(selectedText == "D"){
+            if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[4].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+          }
+          if(selectedText == "E"){
+              if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[5].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+          }
+          if(selectedText == "F"){
+            if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[6].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            }
+          if(selectedText == "G"){
+              if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[7].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+          }
+          if(selectedText == "H"){
+            if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[8].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            }
+          if(selectedText == "I"){
+              if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[9].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+
+
+          }
+          if(selectedText == "J"){
+            if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[10].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            }
+          if(selectedText == "K"){
+              if(x == 1)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[1];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 2)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[2];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 3)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[3];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 4)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[4];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 5)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[5];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 6)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[6];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 7)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[7];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 8)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[8];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 9)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[9];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }else if(x == 10)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[10];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 11)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[11];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            else if(x == 12)
+            {
+              tableCell = document.getElementById('table-id').rows[11].cells[12];
+              tableCell.textContent = dateString;
+              if (dayOfMonth <= numberToCompare) {
+              tableCell.style.backgroundColor = "lightblue";
+              tableCell.style.color = "Green";
+              }
+              else if (dayOfMonth > numberToCompare) {
+              tableCell.style.backgroundColor = "pink";
+              tableCell.style.color = "Red";
+              }
+             
+            }
+            }
+
+          //   let a = 0;
+          //   let b = 0;
+          //   let table_Data = document.getElementById("table-id");
+          //   for(a = 0; a < 120; a++){
+          //     for(b = 0; b <120; b++){
+          //     if(tableCell.rows[a].cells[b] != ""){
+          //        Successfull_File_Upload();
+          //     }
+          //   }
+          //   }
+          //
+          // function Successfull_File_Upload()
+          // {
+          //   document.getElementById("p-success").style.display = "block";
+          // }
+        }
+
+    // Dialogue Box - Upload File -->
+
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      let count = 0;
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+
+        modal.style.display = "block";
+        
+
+        console.log("dialogue show btn");
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+        console.log("dialogue close");
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+          console.log("clicked outside");
+        }
+      };
+    //   resetBtn.onclick = function (event) {
+    //     // var reset = document.getElementById("form_upload");
+    //     // reset.reset();
+    //     document.addEventListener('DOMContentLoaded', (event) => {
+    //     document.getElementById("form_upload").reset();
+    //  });
+    // }
+
+
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+        dropdown = document.getElementById("myDropdown");
+        selectedOption = dropdown.options[dropdown.selectedIndex].value;
+      }
+
+
+    </script>
+
+    <script>
+      // Convert table data to an array of objects
+// var table = document.getElementById("table-id");
+// var tableData = [];
+// var k;
+// for (var i = 1; i < table.rows.length; i++) {
+//     var row = table.rows[i];
+//     var rowData = {};
+//     for (var k = 0; k < row.cells.length; k++) {
+//         rowData[table.rows[0].cells[k].innerHTML] = row.cells[k].innerHTML;
+//     }
+//     tableData.push(rowData);
+// }
+
+// // Save table data to localStorage
+// localStorage.setItem('table-id', JSON.stringify(tableData));
+
+
+// // Get table data from localStorage
+// var tableData = JSON.parse(localStorage.getItem('table-id'));
+
+// // Display table data
+// console.log(tableData);
+
+
+    </script>
+
+    <script src="/JS/js.js" ></script>
+</body>
+</html>
